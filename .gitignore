@@ -1,0 +1,15 @@
+__pycache__/
+
+/venv
+/weights
+/__pycache__
+/.badge
+/images
+*.pt
+*.jpg
+*.png
+*.dll
+*.h
+LICENSE
+*.md
+sandbox.py
