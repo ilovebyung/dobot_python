@@ -18,9 +18,6 @@ while(True):
         cords = [round(x) for x in cords]
         conf = round(box.conf[0].item(), 2)
         if conf > 0.8:
-            # start = cords[0:2]  # x1,y1
-            # end = cords[2:4]  # x2,y2
-            # color = (0, 0, 255)
             x = (int(cords[0]) + int(cords[2]))/2
             y = (int(cords[1]) + int(cords[3]))/2
             center_point = np.array([int(x), int(y)])  
