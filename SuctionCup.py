@@ -64,11 +64,11 @@ dType.RestartMagicBox(api)
 
 ###################
    
-dType.SetPTPCmdEx(api,1 ,240, 0, 150, 0, 1)     # _,_,x,y,x,r,_
+dType.SetPTPCmdEx(api,1 ,240, 0, 150, 0, 1)     # _,_,x,y,z,r,_
 dType.SetPTPCmdEx(api,1 ,240, -102, -55, 0, 1)  # location_a
 dType.SetEndEffectorSuctionCupEx(api,1,1, 1)    # on
-dType.SetPTPCmdEx(api,1 ,240, 0, 150, 0, 1)     # _,_,x,y,x,r,_
+dType.SetPTPCmdEx(api,1 ,240, 0, 150, 0, 1)     # _,_,x,y,z,r,_
 dType.SetPTPCmdEx(api,1 ,341, -4, -55, 0, 1)  # location_e
 dType.SetEndEffectorSuctionCupEx(api,0,0, 1)    # off
-dType.SetPTPCmdEx(api,1 ,240, 0, 150, 0, 1)     # _,_,x,y,x,r,_
+dType.SetPTPCmdEx(api,1 ,240, 0, 150, 0, 1)     # _,_,x,y,z,r,_
 
